@@ -65,3 +65,11 @@ body {
 p {
     color: grey;
 }
+
+#github {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: grey;
+    cursor: pointer;
+}
