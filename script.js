@@ -16,7 +16,6 @@ function applyColor() {
   const color = colorInput.value;
 
   viewport.querySelector('g[data-name="body"]').setAttribute('fill', color);
-  document.documentElement.style.setProperty('--niri-color', color);
 }
 
 function openSvgInNewTab() {
