@@ -23,6 +23,14 @@ button {
     font-size: 1.5em;
 }
 
+button:active {
+    border: 2px solid white;
+}
+
+button.active {
+    border: 2px solid white;
+}
+
 h1 {
     background-color: wheat;
     color: black;
