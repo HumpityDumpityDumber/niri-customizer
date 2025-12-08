@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Niri Logo Color Editor</title>
+  <link rel="stylesheet" href="style.css">
+  </link>
+</head>
+
+<body>
+  <h1>Niri Logo Color Editor</h1>
+
+  <div class="button-container">
+    <button class="svg-button" data-svg="logo.svg">logo.svg</button>
+    <button class="svg-button" data-svg="smol-logo.svg">smol-logo.svg</button>
+    <button class="svg-button" data-svg="icon.svg">icon.svg</button>
+    <button class="svg-button" data-svg="smol-icon.svg">smol-icon.svg</button>
+  </div>
+
+  <div> color: <input type="color" id="colorInput" value="#2586b4"> </div>
+
+  <div id="svgViewport"></div>
+
+  <button id="open-svg">open svg</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+button {
+    background-color: var(--niri-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+h1 {
+    background-color: var(--niri-color);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    align-items: center;
+    color: white;
+}
